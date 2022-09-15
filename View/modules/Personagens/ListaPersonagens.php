@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens</title>
+
+    <style>
+
+        th, td {
+            padding: 10px;
+            color: white;
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+        .tabela {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2em;
+        }
+
+        table {
+            padding: 20px;
+            background-color: black;
+            border: 2px solid white;
+        }
+
+        a {
+            color: white;
+        } 
+    </style>
 </head>
 <body>
 
+    <div class="tabela">
     <table>
         <tr>
             <th></th>
@@ -23,8 +50,6 @@
             <td>
                 <a href="/Personagens/delete?id=<?= $item->id ?>">X</a>
             </td>
-
-            <td><?= $item->id ?></td>
 
             <td>
                 <a href="/Personagens/form?id=<?= $item->id ?>"><?= $item->nome ?></a>
@@ -53,6 +78,7 @@
         <?php endif ?>
 
     </table>
+    </div>
     
 </body>
 </html>
