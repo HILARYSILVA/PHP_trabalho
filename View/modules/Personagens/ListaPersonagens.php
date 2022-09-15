@@ -7,9 +7,20 @@
     <title>Personagens</title>
 
     <style>
+        th {
+            font-size: 2em;
+            font-family: MS UI Gothic;
+        }
+
+        td, a {
+            font-size: 1.5em;
+            font-family: MS Gothic;
+        }
 
         th, td {
             padding: 10px;
+            padding-left: 1em;
+            padding-right: 1em;
             color: white;
             border: 1px solid white;
             border-collapse: collapse;
@@ -25,6 +36,7 @@
             padding: 20px;
             background-color: black;
             border: 2px solid white;
+            border-collapse: collapse;
         }
 
         a {
@@ -38,10 +50,10 @@
     <table>
         <tr>
             <th></th>
-            <th>Id</th>
+            <th>ID</th>
             <th>Nome</th>
-            <th>qualidades</th>
-            <th>hobby</th>
+            <th>Qualidades</th>
+            <th>Hobbies</th>
             
         </tr>
 
