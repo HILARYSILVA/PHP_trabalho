@@ -33,7 +33,7 @@ class PersonagensController
         $Personagens->id = $_POST['id'];
         $Personagens->nome = $_POST['nome'];
         $Personagens->qualidades = $_POST['qualidades'];
-        $Personagens->data_nascimento = $_POST['hobby'];
+        $Personagens->hobby = $_POST['hobby'];
 
         $Personagens->save();  
 
