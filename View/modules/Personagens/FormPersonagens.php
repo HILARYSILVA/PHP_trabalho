@@ -10,8 +10,12 @@
         label, input { display: block;}
 
         input, label {
-            font-size: 2em;
-            font-family: MS UI Gothic;
+            font-size: 2.5em;
+            font-family: MS UI;
+        }
+
+        legend {
+            font-size: 40px;
         }
     </style>
    

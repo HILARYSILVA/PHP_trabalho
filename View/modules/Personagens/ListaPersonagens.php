@@ -37,7 +37,7 @@
 
         table {
             padding: 20px;
-            background-color: black;
+            background-color: purple;
             border: 2px solid white;
             border-collapse: collapse;
         }
@@ -72,9 +72,6 @@
 
             <td>
                 <a href="/Personagens/form?id=<?= $item->id ?>"><?= $item->qualidades?></a>
-            </td>
-
-            <a href="/Personagens/form?id=<?= $item->id ?>"><?= $item->hobby?></a>
             </td>
 
         <td><?= $item->qualidades ?></td>
