@@ -8,6 +8,11 @@
     <title>Cadastro de Personagens</title>
     <style>
         label, input { display: block;}
+
+        input, label {
+            font-size: 2em;
+            font-family: MS UI Gothic;
+        }
     </style>
    
 </head>

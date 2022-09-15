@@ -22,7 +22,7 @@
             <input id="nome" name="nome" value="<?= $model->nome ?>" type="text" />
 
             <label for="senha">Senha:</label>
-            <input id="senha" name="senha value="<?= $model->senha ?>" type="text" />
+            <input id="senha" name="senha" value="<?= $model->senha ?>" type="text" />
 
         
 

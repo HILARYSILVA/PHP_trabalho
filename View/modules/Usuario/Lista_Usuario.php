@@ -7,7 +7,6 @@
     <title>Personagens</title>
 </head>
 <body>
-
     <table>
         <tr>
             <th></th>

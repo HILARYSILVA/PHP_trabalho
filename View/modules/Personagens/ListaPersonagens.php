@@ -7,6 +7,9 @@
     <title>Personagens</title>
 
     <style>
+        body {
+            background-image: url("https://f.vividscreen.info/soft/ce486862f6eaa3e57dca8d7e1e30526e/The-Simpsons-Family-1920x1200.jpg");
+        }
         th {
             font-size: 2em;
             font-family: MS UI Gothic;

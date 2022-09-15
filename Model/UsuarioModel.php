@@ -11,7 +11,7 @@ class Usuario_Model
    
     public function save()
     {
-        include 'DAO/Usuario_DAO.php';
+        include 'DAO/UsuarioDAO.php';
 
         $dao = new Usuario_DAO();
 
@@ -28,7 +28,7 @@ class Usuario_Model
     }
         public function getAllRows()
         {
-            include 'DAO/Usuario_DAO.php';
+            include 'DAO/UsuarioDAO.php';
             $dao = new Usuario_DAO();
             $this->rows = $dao->select();
         }
@@ -36,7 +36,7 @@ class Usuario_Model
 
         public function getById(int $id)
         {
-            include 'DAO/Usuario_DAO.php';
+            include 'DAO/UsuarioDAO.php';
 
             $dao = new Usuario_DAO();
 
@@ -47,7 +47,7 @@ class Usuario_Model
 
         public function delete(int $id)
     {
-        include 'DAO/Usuario_DAO.php'; 
+        include 'DAO/UsuarioDAO.php'; 
 
         $dao = new Usuario_DAO();
 

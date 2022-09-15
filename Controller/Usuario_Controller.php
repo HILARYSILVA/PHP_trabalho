@@ -6,7 +6,7 @@ class Usuario_Controller
 
     public static function index() 
     {
-        include 'Model/Usuario_Model.php'; 
+        include 'Model/UsuarioModel.php'; 
         
        
         $model = new Usuario_Model();
@@ -28,7 +28,7 @@ class Usuario_Controller
 
     public static function save() {
 
-        include 'Model/Usuario_Model.php'; 
+        include 'Model/UsuarioModel.php'; 
         $Usuario = new Usuario_Model();
         $Usuario->id = $_POST['id'];
         $Usuario->nome = $_POST['nome'];
@@ -41,7 +41,7 @@ class Usuario_Controller
 
     public static function delete()
     {
-        include 'Model/Usuario_Model.php'; 
+        include 'Model/UsuarioModel.php'; 
 
         $model = new Usuario_Model();
 

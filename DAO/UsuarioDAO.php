@@ -7,7 +7,7 @@ class Usuario_DAO
     function __construct() 
     {
         
-        $dsn = "mysql:host=localhost:3307;dbname=db_mvc";
+        $dsn = "mysql:host=localhost:3307;dbname=db_simpsons";
         $user = "root";
         $pass = "etecjau";
         
@@ -28,7 +28,7 @@ class Usuario_DAO
 
         
         $stmt->bindValue(1, $model->nome);
-        $stmt->bindValue(2, $model->usuario);
+        $stmt->bindValue(2, $model->senha);
         $stmt->execute();      
 
     }
