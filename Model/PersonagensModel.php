@@ -11,7 +11,7 @@ class PersonagensModel
    
     public function save()
     {
-        include 'DAO/Personagens_DAO.php';
+        include 'DAO/PersonagensDAO.php';
 
         $dao = new PersonagensDAO();
 

@@ -22,7 +22,7 @@
             <input id="nome" name="nome" value="<?= $model->nome ?>" type="text" />
 
             <label for="qualidades">Qualidades:</label>
-            <input id="qualidades" name="qualidades value="<?= $model->qualidades ?>" type="text" />
+            <input id="qualidades" name="qualidades" value="<?= $model->qualidades ?>" type="text" />
             
             <label for="hobby">Hobby:</label>
             <input id="hobby" name="hobby" value="<?= $model->hobby ?>" type="text" />
